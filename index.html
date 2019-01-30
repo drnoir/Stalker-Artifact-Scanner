@@ -7,13 +7,15 @@ By Chris Godber-->
     <link rel="stylesheet" href="css/custum.css">
     <link rel="stylesheet" href="css/labeldots.css">
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <link rel="stylesheet" href="css/info-boxes.css">
     <script src = "js/jquery.js"></script>
     <script src = "js/bootstrap.bundle.min.js"></script>
+    <script src = "js/load.js"></script>
     <script src = "js/bootstrap.js"></script>
     <script src = "js/clickevents.js"></script>
     <meta charset="UTF-8">
-    <title>Stalker Handbook</title>
+    <title>Stalker Virtual Guide</title>
 </head>
 
 <body class ="bg-front">
@@ -28,6 +30,7 @@ By Chris Godber-->
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#">The Stalker Guide</a>
                         <a class="nav-item nav-link" href="#">Artifacts Database</a>
                         <a class="nav-item nav-link" href="#">Map</a>
                       </div>
@@ -40,13 +43,16 @@ By Chris Godber-->
         <div class = "col-md"><h2>Object Name</h2>
         <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada risus at lectus lobortis blandit. Nullam viverra rutrum pulvinar. Vestibulum maximus eget ipsum sed eleifend. In vel mollis ipsum. Aenean in sodales est. Nunc at eleifend ligula, vitae vestibulum metus. Sed mollis nisl justo, id sollicitudin nisl dapibus id. Nunc eu eros non ipsum egestas rhoncus sed molestie erat. Integer placerat ullamcorper vestibulum. Sed nisl lectus, tempus at eros at, consectetur pellentesque enim. Aenean et sem at est bibendum sagittis quis eget nisi. Ut a quam accumsan, efficitur magna ultrices, molestie arcu. Cras vulputate sollicitudin orci, a rhoncus libero elementum id.
-                
-                Pellentesque egestas mauris at sem scelerisque, quis fringilla ante consequat. Aliquam tristique id nisl vel facilisis. Morbi vestibulum neque at ligula ultrices, tempor vulputate mauris euismod. Quisque nec erat eget ex aliquet ultrices eget id ligula. Nam finibus lectus at blandit mollis. Suspendisse magna ante, sagittis nec volutpat ac, lobortis sed nisl. Maecenas a dictum felis. Nam id semper sapien. Curabitur lobortis velit at arcu eleifend, nec congue nisl sodales. Suspendisse pretium volutpat nisl nec egestas.</p>
+                <div class = "row padding button-margin">
+                <button type="button" class="btn btn-light">Previous</button>
+                <button type="button" class="btn btn-light">Next</button>
+                </div>
         </div>
         <div class = "col-md"><h2>Visual Fragment</h2>
-            <img src="test.jpg" class="img-fluid" alt="Responsive image">
+            <img src="art-example.jpg" class="img-fluid" alt="Responsive image">
             <div class ="image-dot2"></div>
             <div class ="image-dot"></div>
+            <p>Discovered in Sector Z21 by Stalker ID E32</p>
         </div>
     </div>
 
@@ -54,9 +60,14 @@ By Chris Godber-->
 </div>   
 
 <div class = "infobox1" tabindex="0" >
-<h1>Test content</h1>
+<h1>Feature</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada risus at lectus lobortis </p>
 </div>
+
+<div class = "infobox2" tabindex="0" >
+        <h1>Feature</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada risus at lectus lobortis </p>
+        </div>
 
 </body>
 </html>
