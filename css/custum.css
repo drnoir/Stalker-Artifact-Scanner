@@ -20,8 +20,8 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 opacity:0;
-min-height:700px;
 border-radius: 10px;
+margin-top:20px;
 }
 
 /* custum bg colours / images etc  */
