@@ -1,0 +1,13 @@
+/* CSS for boxes to display on click events (clickevents.js) */
+
+.infobox1{
+height:400px;
+width:400px;
+background-color:black;   
+display:none;
+position: absolute;
+top:50%;
+left:45%;
+margin: 0 auto;
+border:white solid 8px;
+}

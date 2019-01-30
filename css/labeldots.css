@@ -1,0 +1,22 @@
+/* labels for images */
+
+.image-dot{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background-color:red;
+    position: absolute;
+    top:500px;
+    right:30%;
+}
+    
+.image-dot2{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    background-color:red;
+    position: absolute;
+    top:320px;
+    right:45%;
+}
+    

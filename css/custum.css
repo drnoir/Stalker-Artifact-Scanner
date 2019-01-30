@@ -1,0 +1,59 @@
+/* custum css for interface */
+
+/* Overide */
+h1{
+color:white;    
+}
+
+body{
+font-family: 'Major Mono Display', monospace;   
+color:green; 
+}
+
+/* custum interface elements */
+
+.bg-interface
+{
+background-image: url("../interface design.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/* custum bg colours / images etc  */
+
+.bg-front{
+background-image: url("../bg-image.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.white{
+background-color:white;
+margin-top:40px;
+}
+
+/* background texture menu */
+.rustmenu{
+background-image: url("../rusttex.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.rustmenu a{
+color:white!important;
+font-weight:bolder;
+}
+
+/* spacing  */
+.margin40{
+margin-top:40px;
+}
+
+.padding{
+padding:20px;    
+}
+
+
