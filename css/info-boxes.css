@@ -3,7 +3,7 @@
 .infobox1{
 height:200px;
 width:400px;
-background-image: url("../interface design.png"); 
+background-image: url("../rusttex2.jpg"); 
 display:none;
 position: absolute;
 top:10%;
@@ -15,7 +15,7 @@ border:white solid 8px;
 .infobox2{
     height:200px;
     width:400px;
-    background-image: url("../interface design.png");
+    background-image: url("../rusttex2.jpg");
     display:none;
     position: absolute;
     top:45%;

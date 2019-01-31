@@ -8,15 +8,15 @@ font-family: 'Major Mono Display', monospace;
 
 body{
 font-family: 'Exo 2', sans-serif;   
-color:green; 
+color:white; 
 }
 
 a{
-color:green;    
+color:white;    
 }
 
-a:hover{color:green;   
-
+a:hover{
+color:white;   
 }
 /* custum interface elements */
 
