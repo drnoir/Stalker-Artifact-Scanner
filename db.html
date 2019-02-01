@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!-- A Mock Interface for an art installation based on the Takovsky film Stalker, a mock interface for
+identifying artifacts and browsing a directory of alien objects in this fictional world based on the film and book
+By Chris Godber-->
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custum.css">
+    <link rel="stylesheet" href="css/labeldots.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="css/info-boxes.css">
+    <!-- main js lib -->
+    <script src = "js/jquery.js"></script>
+    <script src = "js/bootstrap.bundle.min.js"></script>
+    <!-- custum js -->
+    <script src = "js/load.js"></script>
+    <script src = "js/bootstrap.js"></script>
+    <script src = "js/clickevents.js"></script>
+
+
+    <meta charset="UTF-8">
+    <title>Stalker Virtual Guide</title>
+</head>
+
+<body class ="bg-front">
+
+    <!-- load audio files -->
+    <audio class="audios" id="open" controls preload="none" style="display:none;"> 
+                <source src="sound/07042079.wav" type="audio/wav">
+    </audio>
+
+    <audio class="audios" id="boot" controls preload="none" style="display:none;"> 
+            <source src="sound/bootup.mp3" type="audio/mp3">
+    </audio>
+
+    <audio class="audios" id="beep" controls preload="none" style="display:none;"> 
+            <source src="sound/beep.mp3" type="audio/mp3">
+    </audio>
+
+
+ 
+<div class ="container glow">
+<div class = "row header" >
+<!-- header with links and title-->  
+    <div class = "col-sm padding"> 
+        <h5><a href ="id.html">Stalker Id: T1010</a></h5> 
+        <h5>Zone: 4</h5>
+    </div>
+    <div class = "col-sm padding">
+            <h5>Current Time:<span class = "time"></span></h5> 
+            <h5>Stalker Status: Active</h5>
+    </div>
+
+    <div class = "col-sm padding">
+            <img src = "idphoto.jpg" class="img-fluid id-image" alt="Responsive image"/> 
+    </div>
+</div>    
+    <div class = "row bg-interface">
+       
+        <div class="col-md">   
+            <nav class="navbar navbar-expand-lg navbar-light bg-light margin40">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="id.html">Stalker ID</a>
+                        <a class="nav-item nav-link" href="scanner.html">Artifact Scanner</a>
+                        <a class="nav-item nav-link" href="info.html">Zone Information</a>
+                        <a class="nav-item nav-link" href="db.html">Artifacts Database</a>
+                        <a class="nav-item nav-link" href="map.html">Map</a>
+                      </div>
+                    </div>
+                  </nav>
+        </div>       
+    </div>
+<!-- Artifact Library Scroller-->
+    <div class = "row padding  bg-interface">
+       
+    
+        
+        <div class = "col-md">
+                <h2>Artifacts Database</h2>
+            <div class="list-group">
+                    <a href="1.html" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Artifact 1</h5>
+                        <small>Discovered: 5:20pm Zone:3</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small>Donec id elit non mi porta.</small>
+                    </a>
+                    <a href="2.html" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Artifact 2</h5>
+                        <small class="text-muted">Discovered: 5:20pm Zone:3</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                    </a>
+                    <a href="3.html" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Artifact 3</h5>
+                        <small class="text-muted">Discovered: 5:20pm Zone:3</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                    <small class="text-muted">Donec id elit non mi porta.</small>
+                    </a>
+                    <a href="4.html" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Artifact 4</h5>
+                            <small>Discovered: 5:20pm Zone:3</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                        <small>Donec id elit non mi porta.</small>
+                    </a>
+                    <a href="5.html" class="list-group-item list-group-item-action flex-column align-items-start active">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Artifact 5</h5>
+                            <small>Discovered: 5:20pm Zone:3</small>
+                    </div>
+                    <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                        <small>Donec id elit non mi porta.</small>
+                    </a>
+                </div>
+                
+        </div>
+        
+        <div class = "col-md">
+                <h2>Artifact Scan ID</h2>
+
+                <ul class="list-group">
+                        <li class="list-group-item"><a href="1.html"><img src = "QR/1.png" height = "110"/></a></li>
+                        <li class="list-group-item"><a href="1.html"><img src = "QR/1.png" height = "110"/></a></li>
+                        <li class="list-group-item"><a href="1.html"><img src = "QR/1.png" height = "110"/></a></li>
+                        <li class="list-group-item"><a href="1.html"><img src = "QR/1.png" height = "110"/></a></li>
+                        <li class="list-group-item"><a href="1.html"><img src = "QR/1.png" height = "110"/></a></li>
+                      </ul>  
+        </div>
+
+    </div>
+
+<!--container -->
+</div>   
+
+</body>
+</html>
