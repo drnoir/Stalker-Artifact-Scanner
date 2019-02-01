@@ -11,5 +11,20 @@ window.onload = function(){
         $( "span.time" ).append(now);
   });
 
+let scanner = new Instascan.Scanner({ video: document.getElementById('videoElement') });
+      scanner.addListener('scan', function (content) {
+        $("#beep")[0].play();
+        window.location.href = content;
+        console.log(content);
+      });
+      Instascan.Camera.getCameras().then(function (cameras) {
+        if (cameras.length > 0) {
+          scanner.start(cameras[0]);
+        } else {
+          console.error('No cameras found.');
+        }
+      }).catch(function (e) {
+        console.error(e);
+      });
 
 }});

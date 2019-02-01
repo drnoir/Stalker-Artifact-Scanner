@@ -36,6 +36,13 @@ opacity:0;
     -moz-box-shadow: 0 0 50px green; 
     box-shadow:0 0 50px green;
 }
+
+#videoElement
+{
+    width:100%;
+
+
+}
 /* custum bg colours / images etc  */
 
 .bg-front{
