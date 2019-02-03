@@ -27,7 +27,6 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 opacity:0;
-
 }
 
 .glow
@@ -40,11 +39,14 @@ opacity:0;
 #videoElement
 {
     width:100%;
-
-
 }
-/* custum bg colours / images etc  */
 
+.item-list{
+list-style: none;
+margin-bottom:20px;    
+}
+
+/* custum bg colours / images etc  */
 .bg-front{
 background-image: url("../bg-image.jpg");
 background-size: cover;
