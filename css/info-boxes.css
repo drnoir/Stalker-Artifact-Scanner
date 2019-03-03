@@ -1,25 +1,15 @@
 /* CSS for boxes to display on click events (clickevents.js) */
 
 .infobox1{
-height:200px;
-width:400px;
-background-image: url("../rusttex2.jpg"); 
 display:none;
+background-color: black;
+max-width: 50%;
 position: absolute;
-top:10%;
+top:45%;
 left:45%;
 margin: 0 auto;
 border:white solid 8px;
+padding:2px;
 }
 
-.infobox2{
-    height:200px;
-    width:400px;
-    background-image: url("../rusttex2.jpg");
-    display:none;
-    position: absolute;
-    top:45%;
-    left:55%;
-    margin: 0 auto;
-    border:white solid 8px;
-    }
+
