@@ -1,8 +1,8 @@
 /* labels for images */
 
 .image-dot{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border-radius:50%;
     background-color:green;
     position: absolute;
@@ -13,8 +13,8 @@
 }
     
 .image-dot2{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     border-radius:50%;
     background-color:green;
     position: absolute;
